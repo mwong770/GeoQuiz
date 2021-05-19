@@ -11,6 +11,22 @@ public class QuizActivity extends AppCompatActivity {
     private Button mTrueButton;
     private Button mFalseButton;
 
+    public Button getTrueButton() {
+        return mTrueButton;
+    }
+
+    public void setTrueButton(Button trueButton) {
+        mTrueButton = trueButton;
+    }
+
+    public Button getFalseButton() {
+        return mFalseButton;
+    }
+
+    public void setFalseButton(Button falseButton) {
+        mFalseButton = falseButton;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
